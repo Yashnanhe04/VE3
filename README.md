@@ -34,17 +34,20 @@ mongoose
 Installation 
 -
 1.Install all the dependencies
+
 npm install all
 
 2.Add your Mongodbd_url to app.js file and also add your credentials to .eve file.
 
 3.Start the application
+
 npm run dev
 
 4.Go to http://localhost:3000
 
 Backend API
 -
+
 - POST     /api/auth/signup
 - POST     /api/auth/login
 - GET      /api/tasks
